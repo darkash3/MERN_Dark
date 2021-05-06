@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_Examples</title>
+</head>
+<body>
+    <form action="#">
+        <h2><strong>PokeMMO Registration(Darkrai.Inc)</strong></h2>
+        <fieldset>
+            <br>
+            <fieldset>
+                <legend><i>Personal Details</i></legend>
+                <br>
+                <label for="username">Username:</label>
+                <input 
+                    id="username"
+                    type="text"
+                    placeholder="enter username">
+                <br><br>
+                <label for="email">Email ID:</label>
+                <input 
+                    id="email"
+                    type="text"
+                    placeholder="enter email id">
+                <br><br>
+                <label for="password">Password:</label>
+                <input 
+                    id="pasword"
+                    type="password"
+                    placeholder="enter password">
+                <br><br>  
+                <label for="conpass">Confirm Password:</label>
+                <input 
+                    id="conpass"
+                    type="password"
+                    placeholder="enter password">
+                <br><br>
+                <label for="dob">Date-of-Birth:</label>
+                <input 
+                    id="dob"
+                    type="number"
+                    placeholder="enter date of birth">
+                <br>     
+            </fieldset>
+            <fieldset>
+                <legend><i>Choose Starters</i></legend>
+                <br>
+                <label for="starter">Choose Starter:</label>                       
+                <select id="starter">
+                    <option value="NIL">----Select----</option>
+                    <optgroup label="Gen-1">
+                        <option value="Charmender">Charmender</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                    </optgroup>
+                    <optgroup label="Gen-2">
+                        <option value="Cyndaquil">Cyndaquil</option>
+                        <option value="Totodile">Totodile</option>
+                        <option value="Chikorita">Chikorita</option>
+                    </optgroup>
+                    <optgroup label="Gen-3">
+                        <option value="Torchic">Torchic</option>
+                        <option value="Mudkip">Mudkip</option>
+                        <option value="Treecko">Treecko</option>
+                    </optgroup>
+                    <optgroup label="Gen-4">
+                        <option value="Chimchar">Chimchar</option>
+                        <option value="Piplup">Piplup</option>
+                        <option value="Turtwig">Turtwig</option>
+                    </optgroup>
+                    <optgroup label="Gen-5">
+                        <option value="Tepig">Tepig</option>
+                        <option value="Oshawott">Oshawott</option>
+                        <option value="Snivy">Snivy</option>
+                    </optgroup>
+                    <optgroup label="Gen-6">
+                        <option value="Fennekin">Fennekin</option>
+                        <option value="Froakie">Froakie</option>
+                        <option value="Chespin">Chespin</option>
+                    </optgroup>
+                    <optgroup label="Gen-7">
+                        <option value="Litten">Litten</option>
+                        <option value="popplio">Popplio</option>
+                        <option value="Rowlet">Rowlet</option>
+                    </optgroup>
+                    <optgroup label="Gen-8">
+                        <option value="Scorbunny">Scorbunny</option>
+                        <option value="Sobble">Sobble</option>
+                        <option value="Grookey">Grookey</option>
+                    </optgroup>                
+                </select>            
+                <br><br>
+                <label for="character">Select Character:</label>
+                <select id="character">
+                    <option value="NIL">----Select----</option>                
+                    <option value="School Boy">School Boy</option>
+                    <option value="Scientist">Scientist</option>
+                    <option value="Ash">Ash</option>
+                    <option value="Gary">Gary</option> 
+                    <option value="Old Man">Old Man</option>
+                    <option value="Fisherman">Fisherman</option>
+                    <option value="Young Lass">Young Lass</option> 
+                    <option value="Channelar">Channelar</option>
+                    <option value="Misty">Misty</option>
+                    <option value="Dawn">Dawn</option>
+                    <option value="Prof.Oak">Prof.Oak</option>                  
+                </select>
+                <br><br>
+                <label for="region">Select Region:</label>
+                <select id="region">                               
+                    <option value="NIL">----Select----</option>                
+                    <option value="Kanto">Kanto</option>
+                    <option value="Jhoto">Jhoto</option>
+                    <option value="Hoenn">Hoenn</option>
+                    <option value="Sinnoh">Sinnoh</option> 
+                    <option value="Unovo">Unovo</option>
+                    <option value="Kalos">Kalos</option>
+                    <option value="Alola">Alola</option> 
+                    <option value="Galar">Galar</option>                                 
+                </select>           
+            </fieldset>
+            <fieldset>
+                <legend><i>Additional</i></legend>
+                <br>
+                <label for="time">Select Time:</label>
+                <select id="time">
+                    <option value="NIL">----Select----</option>                
+                    <option value="Day">Day</option>
+                    <option value="Night">Night</option>                                                
+                </select>
+                <br><br>
+                <label for="climate">Select Climate:</label>
+                <select id="climate">
+                    <option value="NIL">----Select----</option>                
+                    <option value="Summer">Summer</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Rainy">Rainy</option>
+                    <option value="Autumn">Autumn</option>                                                
+                </select>
+                <br><br> 
+                <label for="comments">Comments:</label>
+                <textarea 
+                    id="comments"  
+                    cols="30" 
+                    rows="5">
+                </textarea>        
+                <br><br>           
+            </fieldset>
+            <br><br>
+            <input 
+            type="submit" 
+            value="Register" >             
+        </fieldset>
+        <br>
+    </form>    
+</body>
+</html>

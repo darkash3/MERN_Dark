@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+
+.rain{
+    background-color: white;
+    color: rgb(0, 0, 0);    
+}
+
+.rain h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.rain p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.rain ol{
+    background-color: white;
+    list-style-type: upper-alpha;
+    line-height: 20px;
+}
+
+.col h2{
+    text-decoration: underline;
+    font-style: italic; 
+}
+
+
+.col_r{
+    background-color: white;
+    color: red;
+    text-align: center;
+}
+
+.col_r h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_r p{
+    font-size: 20px;
+}
+
+
+.col_o{
+    background-color: white;
+    color: orange;
+    text-align: center;
+}
+
+.col_o h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_o p{
+    font-size: 20px;
+}
+
+
+.col_y{
+    background-color: white;
+    color: yellowgreen;
+    text-align: center;
+}
+
+.col_y h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_y p{
+    font-size: 20px;
+}
+
+
+.col_g{
+    background-color: white;
+    color: green;
+    text-align: center;
+}
+
+.col_g h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_g p{
+    font-size: 20px;
+}
+
+
+.col_b{
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+.col_b h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_b p{
+    font-size: 20px;
+}
+
+
+.col_i{
+    background-color: white;
+    color: indigo;
+    text-align: center;
+}
+
+.col_i h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_i p{
+    font-size: 20px;
+}
+
+
+.col_v{
+    background-color: white;
+    color: violet;
+    text-align: center;
+}
+
+.col_v h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.col_v p{
+    font-size: 20px;
+}

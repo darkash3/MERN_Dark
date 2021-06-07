@@ -1,0 +1,93 @@
+ *{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+/*.parent{
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/Raba059b3dc3f423aad5fcde1920fba07?rik=2fcfVEcNXLHK8w&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2014%2f08%2fouter-space-nebula-clouds.jpg&ehk=PDaeTJ1DmG8MRCQ4CbAabWi1wuZ18pHtb1LoAyseU4M%3d&risl=&pid=ImgRaw');
+    background-size: 100% 100%;
+}
+
+.parent h1{
+    font-size: 100px;
+    mix-blend-mode: screen;
+    background-color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 0 20px;
+}
+ */
+
+/* 
+.name{
+    height: 100vh;
+    width: 100vw;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h1{
+    text-transform: uppercase;
+    text-shadow: 4px 10px 5px rgb(100, 100, 100);
+    animation: up_down 2s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes up_down{
+    0%{
+        transform: rotate(-8deg);
+    }
+    100%{
+        transform: rotate(8deg);
+    }
+} */
+
+
+/* .name{
+   height: 100vh;
+   width: 100vw;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.name h1{
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 96px;
+    letter-spacing: 8px;
+    background-image: url('https://www.peakradar.com/wp-content/uploads/sites/www.peakradar.com/images/2016/09/primary-Fall-Night-Sky-For-Beginners-1473907862.jpeg');
+    background-position: top;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+} */
+
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 60vw;
+    height: 60vh;
+    background-image: 
+            linear-gradient(120deg, rgba(255,255,255,0.7) 50%,transparent 20%),
+            url('https://th.bing.com/th/id/R66e489f1eecf8cb354afc3ec433dd6a9?rik=BVYcsrM3lHO8Sw&riu=http%3a%2f%2fwww.enigmadomilenio.com.br%2floja%2fmodules%2fhomeslider%2fimages%2f22bf17eede7cf9ab07847eb8e8606f76075a7084_tcg_sol_luna_ultraprisma.jpg&ehk=QTIS5xoIenHtpC7LLukNwWrL7xwEnVbG435w1dRYkoU%3d&risl=&pid=ImgRaw');
+    background-size: 100% 100%;
+}

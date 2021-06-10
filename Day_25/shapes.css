@@ -1,0 +1,43 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub{
+    width: 250px;
+    height: 175px;
+    background-color: black;
+    position: relative;
+}
+
+.sub::before{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color: black;
+    transform: rotate(60deg);
+}
+.sub::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color: black;
+    transform: rotate(-60deg);
+}
+
+.sub:nth-of-type(2){
+    height: 250px;
+}
+.sub:nth-of-type(3){
+    height: 100px;
+}

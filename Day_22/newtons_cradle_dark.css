@@ -1,0 +1,79 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    border: 7px solid blue;
+    border-bottom-width: 50px;
+}
+
+.sub span{
+    width: 2px;
+    height: 70%;
+    background-color: blue;
+    margin: 0 18px;
+    position: relative;
+    transform-origin: top;
+}
+
+.sub span::before{
+    content: '';
+    width: 40px; 
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.sub span:first-child{
+    animation: firstball 3s linear infinite;
+}
+.sub span:last-child{
+    animation: lastball 3s linear 1.5s infinite;
+}
+
+@keyframes firstball {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);    
+    }
+}
+@keyframes lastball {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);    
+    }
+}

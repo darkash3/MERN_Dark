@@ -1,0 +1,54 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+.magic{
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magic span{
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all .5s linear;
+}
+
+.magic span:first-child{
+    transition-delay: 0s;
+}
+
+.magic span:nth-child(2){
+    transition-delay: 0.2s;
+}
+
+.magic span:nth-child(3){
+    transition-delay: 0.4s;
+}
+
+.magic span:nth-child(4){
+    transition-delay: 0.6s;
+}
+
+.magic span:nth-child(5){
+    transition-delay: 0.8s;
+}
+
+.magic span:nth-child(6){
+    transition-delay: 1s;
+}
+
+.magic span:last-child{
+    transition-delay: 1.2s;
+}
+
+.magic:hover span{
+    transform: translate(60px,-60px) rotate(5deg);
+    opacity: 0;
+    filter: blur(20px);
+}

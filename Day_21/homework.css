@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 
+/* homework_blendmode_dark */
+
 /*.parent{
     width: 100vw;
     height: 100vh;    
@@ -23,7 +25,9 @@
 }
  */
 
-/* 
+/* Text_Floating_HW_dark */ 
+
+ /* 
 .name{
     height: 100vh;
     width: 100vw;
@@ -50,6 +54,8 @@
 } */
 
 
+/* Image_Clipping_HW_dark */
+
 /* .name{
    height: 100vh;
    width: 100vw;
@@ -73,6 +79,8 @@
     -o-background-clip: text;
 } */
 
+
+/* Image_overlay_HW_dark */
 
 .parent{
     width: 100vw;

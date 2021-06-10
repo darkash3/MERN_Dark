@@ -1,0 +1,78 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+.balls{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 173, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balls ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 12px solid rgb(170, 1, 1);
+}
+
+.balls ul li{
+    width: 30px; 
+    height: 30px;
+    list-style-type: none;
+    border-radius: 50%;
+    margin: 0 15px;
+    background-color: red;
+    animation: ball_bounce 1s ease-in-out infinite;
+}
+
+.balls ul li:first-child{
+    background-color: violet;
+    animation-delay: 0s;
+}
+
+.balls ul li:nth-child(2){
+    background-color: indigo;
+    animation-delay: 0.2s;
+}
+
+.balls ul li:nth-child(3){
+    background-color: blue;
+    animation-delay: 0.4s;
+}
+
+.balls ul li:nth-child(4){
+    background-color: green;
+    animation-delay: 0.6s;
+}
+
+.balls ul li:nth-child(5){
+    background-color: yellow;
+    animation-delay: 0.8s;
+}
+
+.balls ul li:nth-child(6){
+    background-color: orange;
+    animation-delay: 1s;
+}
+
+.balls ul li:last-child{
+    background-color: red;
+    animation-delay: 1.2s;
+}
+
+@keyframes ball_bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    
+    50%{
+        transform: translateY(-100px);
+    }   
+    
+    100%{
+        transform: translateY(0px);
+    } 
+}
